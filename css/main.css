@@ -6727,6 +6727,7 @@ Created using IcoMoon - icomoon.io
   position: relative;
   overflow: hidden;
   text-align: center;
+  height: 300px;
 }
 
 .gallery .cc-porfolio-image figure img {
@@ -6942,6 +6943,7 @@ Created using IcoMoon - icomoon.io
   border: 15px solid transparent;
   z-index: 9999;
   transition: all 0.3s ease-out;
+  object-fit: cover;
 }
 
 .cc-profile-image a:hover img {
@@ -7081,3 +7083,18 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
+
+/* Custom Css For porfolio page Start */
+.rollsRespo {
+  padding: 10px 20px;
+}
+.rollsRespo p {
+  margin: 7px;
+}
+.rollsRespo ul {
+  list-style: none;
+}
+#portfolio {
+  padding-bottom: 20px;
+}
+/* Custom Css For porfolio page End  */
